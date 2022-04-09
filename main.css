@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.setting-container{
+    width: 50%;
+    height: 50%;
+    border: 1px black solid;
+    margin: 10% auto 0 auto;
+}
+
+.timer{
+    width: 280px;
+    height: 90px;
+
+    margin: 0 auto;
+
+    font-size: 100px;
+}
+
+.buttons{
+    width: 350px;
+    height: 30px;
+    margin: 30px auto 0 auto;
+}
+
+.startG{
+    width: 100px;
+    height: 30px;
+
+    background-color: rgb(189, 5, 5);
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 5 black;
+    cursor: grab;
+
+    
+}
+.checkG{
+    width: 100px;
+    height: 30px;
+
+    background-color: rgb(189, 5, 5);
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 5 black;
+    cursor: grab;
+
+    
+}
+
+.newG{
+    width: 100px;
+    height: 30px;
+
+    background-color: rgb(189, 5, 5);
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 5 black;
+    cursor: grab;
+
+    
+}
+
+
+
+.container{
+    width: 70%;
+    height: 70%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 3% auto;
+}
+
+.number-box{
+    width: 316px;
+    height: 400px;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.number{
+    width: 79px;
+    height: 100px;
+    /* border: 1px solid #000; */
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+} 
+
+
+/* CHECK MODAL */
+.black-theme{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+
+    position: absolute;
+    display: none;
+}
+
+.modal-check-win{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+
+
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    right: 33%;
+
+    display: none;
+}
+.check-win{
+    width: 400px;
+    text-align: center;
+    height: 50px;
+    font-size: x-large;
+    color: black;
+    background-color: rgb(30, 255, 0);
+
+    margin-bottom: 70px;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-check-lost{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+
+
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    right: 33%;
+
+    display: none;
+}
+.check-lose{
+    width: 400px;
+    text-align: center;
+    height: 50px;
+    font-size: x-large;
+    color: black;
+    background-color: red;
+
+    margin-bottom: 70px;
+
+
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.modal-check-time{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+
+
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    right: 33%;
+
+    display: none;
+}
+.check-time{
+    width: 400px;
+    text-align: center;
+    height: 50px;
+    font-size: x-large;
+    color: black;
+    background-color: yellow;
+
+    margin-bottom: 70px;
+
+
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+
+.close-modal{
+    width: 100px;
+    height: 30px;
+
+    background-color: rgb(189, 5, 5);
+    color: aliceblue;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 5 black;
+    cursor: grab;
+
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
